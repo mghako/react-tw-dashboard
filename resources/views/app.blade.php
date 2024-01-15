@@ -15,6 +15,8 @@
         @viteReactRefresh
         @vite(['resources/js/app.jsx', "resources/js/Pages/{$page['component']}.jsx"])
         @inertiaHead
+        <!-- from cdn -->
+        <script async src="https://unpkg.com/@material-tailwind/html@latest/scripts/ripple.js"></script>
     </head>
     <body class="font-sans antialiased">
         @inertia
